@@ -30,7 +30,7 @@ export const putDb = async (id, value) => {
 };
 
 // Export a function we will use to GET to the database.
-export const getDb = async (value) => {
+export const getDb = async () => {
   console.log('GET from the database');
 
   const contactDb = await openDB('jate', 1);
