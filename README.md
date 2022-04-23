@@ -8,6 +8,10 @@ The application contains the following:
 * Browser based application
 * Installable application
 
+![Starting application](assets/start-application.png)
+
+![Adding text](assets/added-text.png)
+
 ## Built with
 * JavaScript in a PWA
 * Webpack
