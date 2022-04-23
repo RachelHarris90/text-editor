@@ -14,7 +14,7 @@ const initdb = async () =>
   });
 
 // Accept some content and add it to the database
-export const putDb = async (content) => {
+export const putDb = async (id, value) => {
   console.error('putDb not implemented');
 
   const contentDb = await openDB('jate', 1);
@@ -30,7 +30,7 @@ export const putDb = async (content) => {
 };
 
 // Export a function we will use to GET to the database.
-export const getDb = async () => {
+export const getDb = async (value) => {
   console.log('GET from the database');
 
   const contactDb = await openDB('jate', 1);
